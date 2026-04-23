@@ -1,0 +1,11 @@
+name: Helloworld
+
+on: [push]branch_protection_rule: 
+
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello
+      run: echo "Hello, Github Actions!"
