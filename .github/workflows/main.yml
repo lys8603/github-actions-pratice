@@ -1,6 +1,6 @@
 name: Helloworld
 
-on: [push]branch_protection_rule: 
+on: [push]
 
 
 jobs:
